@@ -21,7 +21,7 @@ To run your app in development, you will need to configure a GitHub App to deliv
   - **Permissions:** Dependent on your use case
     - If you enable excess permissions during development, remember to remove them in production.
 4. Download the private key as `private-key.pem` into the repository’s directory
-5. Set your `APP_ID` in your `.env` file
+5. Set your `APP_ID` in your `.env` file. You can find the APP_ID which is a number in https://github.com/settings/apps/your-app
 6. Update your GitHub App’s Webhook URL to your [smee.io](https://smee.io/) URL.
 7. Run `$ npm start` to start the server.
 
